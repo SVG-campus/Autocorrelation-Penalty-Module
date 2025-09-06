@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Autocorrelation Penalty Module"
+version: "0.1.0"
+date-released: "2025-09-06"
+authors:
+  - family-names: "Villalobos-Gonzalez"
+    given-names: "Santiago de Jesus"
+    orcid: "https://orcid.org/0009-0004-9601-5617"
+type: software
+abstract: >
+  Reference implementation of an autocorrelation penalty for portfolio updates.
+  A Ljung–Box test p-value on a recent window determines a penalty lambda*(1-pLB),
+  which shrinks weights before simplex re-normalization. Includes tests and
+  Zenodo/ORCID metadata.
+keywords:
+  - autocorrelation
+  - Ljung-Box
+  - portfolio optimization
+  - risk management
+  - quantitative finance
+license: MIT
+repository-code: "https://github.com/OWNER/REPO"
+identifiers: []
